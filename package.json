@@ -9,7 +9,7 @@
   "author": "Ross Zurowski <ross@rosszurowski.com> (http://rosszurowski.com)",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.7.0"
+    "ava": "^0.16.0"
   },
   "dependencies": {
     "any-promise": "^0.1.0"

@@ -15,6 +15,16 @@ test: node_modules
 clean:
 	@rm -rf node_modules
 
+publish\:minor:
+	@npm version minor
+	@git push
+	@npm publish
+
+publish\:patch:
+	@npm version patch
+	@git push
+	@npm publish
+
 #
 # Shorthands
 #
@@ -32,4 +42,4 @@ node_modules: package.json
 # Phony
 #
 
-.PHONY: test clean clean-deps
+.PHONY: test clean
