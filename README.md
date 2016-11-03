@@ -21,8 +21,6 @@ npm install async-json-parse
 
 ### Usage
 
-[![NPM](https://nodei.co/npm/async-json-parse.png)](https://nodei.co/npm/async-json-parse/)
-
 #### `parse(json)`
 
 Parses `json`, a stringified JSON object. Returns a promise that resolves to the parsed JSON string.
