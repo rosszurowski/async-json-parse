@@ -1,5 +1,8 @@
-
 # async-json-parse
+
+> :warning: Apparently there's currently no way to parse JSON asynchronously in the browser without using WebWorkers ([watch this for details](https://www.youtube.com/watch?v=Ls8zZ4n5DUE)). In other words, **this module doesn't work.**
+>
+> If an working technique for async JSON parsing comes along, I'll update this module.
 
 Parses JSON asynchronously, rather than the usual sync `JSON.parse` interface. Helpful for times when you need to parse large amounts of JSON without blocking the UI from rendering.
 
